@@ -28,7 +28,21 @@
         </div>
       </nav>
     </header>
-    <main></main>
+    <main class="container py-5">
+      <h1 class="mb-4">Lista de Tareas</h1>
+
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          id="tareaInput"
+          class="form-control"
+          placeholder="Escribe una tarea"
+        />
+        <button id="agregarBtn" class="btn btn-primary">Agregar</button>
+      </div>
+
+      <ul id="listaTareas" class="list-group"></ul>
+    </main>
     <footer>
       <div class="bg-body-tertiary text-center py-3">
         <p>&copy; Todos los derechos reservados</p>
